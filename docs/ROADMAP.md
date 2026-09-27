@@ -1,0 +1,2 @@
+# ROADMAP Doña Chávez
+A) Geocoding: calle+ciudad del CSV -> lat/lon. B) Dispatch: pedido -> robot -> telemetria GPS -> bot Telegram (dueno ve ruta en vivo). C) Notificacion: sendMessage a ~2 min de llegada + link de ubicacion. D) OPERADOR CON DISCAPACIDAD: estacion de trabajo con nuestro software (accesibilidad WCAG AA, pantalla grande/lector), rol pago de repartidor-despachador. Nota: bases BURGUER 1/2 = reemplazar por coordenadas publicas de las 2 cadenas reales via Maps.

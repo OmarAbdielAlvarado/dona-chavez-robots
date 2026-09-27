@@ -1,0 +1,6 @@
+.env
+*.db
+CREDENCIALES*
+__pycache__/
+*.log
+nohup*
