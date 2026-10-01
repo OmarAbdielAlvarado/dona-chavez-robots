@@ -1,0 +1,138 @@
+{
+ "_leyeme": "LLenar con JSON de la ballena (DeepSeek). capa_real debajo, ficción arriba",
+ "convencion": "ver docs/CONVENCION_SIMPSON.md",
+ "poi": [
+  {
+   "id": 1,
+   "personaje": "Homero Simp-González",
+   "negocio": "La Rosquilla Dorada (donutería-taquería)",
+   "calle_fic": "Av. Siempre Viva 742",
+   "tipo": "comida",
+   "lat_real": 19.2671225,
+   "lon_real": -103.698229,
+   "ancla_real": "La hamburgueseria"
+  },
+  {
+   "id": 2,
+   "personaje": "Marge Simp-Márquez",
+   "negocio": "El Peinado y la Torta (panadería)",
+   "calle_fic": "Av. Siempre Viva 740",
+   "tipo": "panadería",
+   "lat_real": 19.2547026,
+   "lon_real": -103.7156414,
+   "ancla_real": "La buena vida"
+  },
+  {
+   "id": 3,
+   "personaje": "Bart Simp-Rodríguez",
+   "negocio": "Elotes y Patines El Travieso",
+   "calle_fic": "Blvd. El Patín Veloz 21",
+   "tipo": "antojitos",
+   "lat_real": 19.2573568,
+   "lon_real": -103.7295656,
+   "ancla_real": "hot dogs"
+  },
+  {
+   "id": 4,
+   "personaje": "Lisa Simp-Buendía",
+   "negocio": "Jazz y Café Sax Menor",
+   "calle_fic": "Andador Sax Azul 8",
+   "tipo": "cafetería",
+   "lat_real": 19.2697008,
+   "lon_real": -103.7163879,
+   "ancla_real": "Starbucks"
+  },
+  {
+   "id": 5,
+   "personaje": "Apu Sim-Gupta",
+   "negocio": "Kwik-Corners (tienda de esquina)",
+   "calle_fic": "Calle Nube Rosada 632",
+   "tipo": "tienda",
+   "lat_real": 19.2609597,
+   "lon_real": -103.7325698,
+   "ancla_real": "Loncheria Ceballos"
+  },
+  {
+   "id": 6,
+   "personaje": "Barney Go-Meléndez",
+   "negocio": "Cantina El Gomelón",
+   "calle_fic": "Calzada La Golfito 415",
+   "tipo": "cantina",
+   "lat_real": 19.2557568,
+   "lon_real": -103.7266388,
+   "ancla_real": "Caguamería"
+  },
+  {
+   "id": 7,
+   "personaje": "Ned Fland-Álvarez",
+   "negocio": "Flandería La Vecindad",
+   "calle_fic": "Av. Siempre Viva 744",
+   "tipo": "servicio",
+   "lat_real": 19.2360705,
+   "lon_real": -103.7192861,
+   "ancla_real": "Manuel Álvarez"
+  },
+  {
+   "id": 8,
+   "personaje": "Milhouse Van-Hout-Ramírez",
+   "negocio": "Fonda El Mejor Amigo",
+   "calle_fic": "Privada Donut Feliz 12",
+   "tipo": "fonda",
+   "lat_real": 19.2349444,
+   "lon_real": -103.7196934,
+   "ancla_real": "Nadadoras"
+  },
+  {
+   "id": 9,
+   "personaje": "Moisés Sza-Péralta",
+   "negocio": "La M-Taberna de Moisés",
+   "calle_fic": "Calzada La Golfito 417",
+   "tipo": "cantina",
+   "lat_real": 19.2496292,
+   "lon_real": -103.6989459,
+   "ancla_real": "CORO"
+  },
+  {
+   "id": 10,
+   "personaje": "Kent Brock-Manzo",
+   "negocio": "Noti-Canal 6 (estudio)",
+   "calle_fic": "Blvd. El Patín Veloz 600",
+   "tipo": "medios",
+   "lat_real": 19.2478829,
+   "lon_real": -103.697779,
+   "ancla_real": "Adobe Pizza"
+  },
+  {
+   "id": 11,
+   "personaje": "Jefe Wiggum-Vargas",
+   "negocio": "Tacos El Patrulla",
+   "calle_fic": "Cerrada Manzana Verde 33",
+   "tipo": "taquería",
+   "lat_real": 19.2496101,
+   "lon_real": -103.7003076,
+   "ancla_real": "Hot dogs y hamburguesas"
+  },
+  {
+   "id": 12,
+   "personaje": "Don Burns-Hernández",
+   "negocio": "Carbonería La Planta (carnitas)",
+   "calle_fic": "Paseo de la Rosquilla 101",
+   "tipo": "comida",
+   "lat_real": 19.2503517,
+   "lon_real": -103.7009311,
+   "ancla_real": "Area De Comida Rapida"
+  }
+ ],
+ "rutas_fic": [],
+ "calles_fic": [],
+ "bases_reales": {
+  "BURGUER_1": [
+   19.255274,
+   -103.715019
+  ],
+  "BURGUER_2": [
+   19.26712,
+   -103.69823
+  ]
+ }
+}

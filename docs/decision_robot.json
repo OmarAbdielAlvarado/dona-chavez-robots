@@ -1,0 +1,23 @@
+{
+ "fecha_datos": "2026-10-01",
+ "flota_ajena": {
+  "kiwibot": {
+   "suscripcion_mes_usd": 2200,
+   "api": "si",
+   "pendiente": "confirmar Mexico 2026"
+  }
+ },
+ "robot_propio": {
+  "jetson_orin_nano": 669,
+  "rplidar_a1": 99,
+  "chasis_difdrive_chino": 400,
+  "total_estimado_usd": 1168,
+  "ros2": true,
+  "control_total": true,
+  "pintable_cliente": true
+ },
+ "flotas_cerradas": [
+  "Starship",
+  "Serve"
+ ]
+}
