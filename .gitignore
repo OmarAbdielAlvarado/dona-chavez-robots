@@ -4,3 +4,8 @@ CREDENCIALES*
 __pycache__/
 *.log
 nohup*
+venv/
+__pycache__/
+*.log
+nodos/*.wav
+ESTADO_CERO.md

@@ -6,7 +6,7 @@ export TURTLEBOT3_MODEL=burger GZ_IP=127.0.0.1 IGN_IP=127.0.0.1
 export GZ_SIM_RESOURCE_PATH=/opt/ros/lyrical/share/turtlebot3_gazebo/models:${GZ_SIM_RESOURCE_PATH}
 
 # FIX v4: --force-version 10 (el wrapper se cuelga sin el) + chequeo por LOG
-nohup gz sim --force-version 10 -r -s -v2 /opt/ros/lyrical/share/turtlebot3_gazebo/worlds/turtlebot3_world.world >/tmp/gz_server.log 2>&1 &
+nohup stdbuf -oL -eL gz sim --force-version 10 -r -s -v2 /opt/ros/lyrical/share/turtlebot3_gazebo/worlds/turtlebot3_world.world >/tmp/gz_server.log 2>&1 &
 GZPID=$!
 
 LISTO=0
@@ -25,7 +25,7 @@ sleep 3
 
 SPAWN=0
 for i in 1 2 3; do
-  if ros2 run ros_gz_sim create -name burger -file /opt/ros/lyrical/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf -x 0 -y 0 -z 0.01; then SPAWN=1; break; fi
+  if ros2 run ros_gz_sim create -file /home/omar/proyectos/comi_colima/nodos/torta_ahogada.sdf -x 2 -y 0 -z 0.05; then SPAWN=1; break; fi
   echo "intento $i fallo, reintentando..."; sleep 3
 done
 [ $SPAWN -eq 1 ] && echo "SPAWN OK" || { echo "== SPAWN FALLO. Log: =="; tail -15 /tmp/gz_server.log; }
