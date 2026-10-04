@@ -2,7 +2,18 @@
 
 No es solo ahorrar dinero. Es salvar vidas humanas.
 Cuando llueve, el riesgo del repartidor en moto crece: piso mojado, autos, prisa.
-En Mexico mueren ~90 repartidores al ano atropellados trabajando (INEGI/Ni Un Repartidor Menos).
+
+Cifras verificadas (oct 2026, fuentes en docs/fuentes_cifras.md):
+- Mexico: 2,885 motociclistas fallecidos en 2023, maximo historico
+  (INEGI, Estadisticas de Defunciones Registradas 2023).
+- Repartidores de apps: 453 atropellados en servicio 2020-2024,
+  ~90 al ano en promedio (conteo del colectivo Ni Un Repartidor Menos,
+  citado por Milenio; conteo comunitario, no oficial).
+- Colima: 84 de 173 muertes viales en 2023 fueron motociclistas
+  (48.5%, tercer lugar nacional en tasa; ANSV/INEGI via prensa).
+INEGI no desagrega "repartidor" en defunciones viales: ese subregistro
+es parte del problema que atacamos.
+
 Un robot no sangra: un golpe no lo mata, se reemplaza y sigue.
 
 Nadie se queda sin trabajo:
