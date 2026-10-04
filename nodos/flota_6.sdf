@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sdf version="1.8"><model name="flota_6">
+<link name="body">
+<inertial><pose>0 0 0.15 0 0 0</pose><mass>15</mass><inertia><ixx>0.28</ixx><iyy>0.53</iyy><izz>0.65</izz></inertia></inertial>
+<collision name="ch"><pose>0 0 0.15 0 0 0</pose><geometry><box><size>0.6 0.4 0.25</size></box></geometry></collision>
+<visual name="chv"><pose>0 0 0.15 0 0 0</pose><geometry><box><size>0.6 0.4 0.25</size></box></geometry><material><ambient>0.1 0.3 0.8 1</ambient></material></visual>
+<collision name="r1c"><pose>0.2 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r1v"><pose>0.2 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<collision name="r2c"><pose>0.0 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r2v"><pose>0.0 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<collision name="r3c"><pose>-0.2 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r3v"><pose>-0.2 0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<collision name="r4c"><pose>0.2 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r4v"><pose>0.2 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<collision name="r5c"><pose>0.0 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r5v"><pose>0.0 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<collision name="r6c"><pose>-0.2 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry><surface><friction><ode><mu>0</mu><mu2>0</mu2></ode></friction></surface></collision><visual name="r6v"><pose>-0.2 -0.24 0.12 1.5708 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.08</length></cylinder></geometry></visual>
+<sensor name="lidar" type="gpu_lidar"><pose>0 0 0.40 0 0 0</pose><topic>/model/flota_6/scan</topic><update_rate>5</update_rate><lidar><scan><horizontal><samples>360</samples><resolution>1</resolution><min_angle>-3.1416</min_angle><max_angle>3.1416</max_angle></horizontal></scan><range><min>0.12</min><max>12</max><resolution>0.01</resolution></range></lidar><always_on>1</always_on><visualize>false</visualize></sensor>
+</link>
+<plugin filename="gz-sim-velocity-control-system" name="gz::sim::systems::VelocityControl"/>
+</model></sdf>

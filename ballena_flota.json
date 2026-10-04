@@ -1,0 +1,11 @@
+{
+"respuesta_ballena_2oct": {
+"opcion_A_reciclaje": "silla de ruedas electrica usada = TODO el tren motriz (2 motores 24V 200-400W + controladora + bateria + ruedas). 2700-7200 MXN. Pedir: DIF Colima, Incodis (acopio sillas usadas), Caritas, Univ de Colima/ITC/TecNM mecatronica, Rotarios",
+"opcion_B_compra_minima": "2x motor 24V 150RPM 267 MXN c/u (Amazon MX) + IBT-2 300-500 + LiFePO4 12V 9Ah 936 (Etech) + chasis 4WD kit 450-600 = ~2600-3400 MXN total",
+"alternativa_scooter": "scooter movilidad usado 15-22k MXN = motores+bateria+ruedas completos",
+"energia": "operando 100-300W; 1kWh ~= 5h. Panel grande 200-400W (3-6k MXN); para burgers 50-100W (1.2-2.7k)",
+"carga_util": "pedido 1-1.5kg; 4 pedidos=4-8kg, 8=8-16kg -> disenar 10-15kg",
+"ros2": "sin driver oficial IBT-2/Cytron -> micro-ROS/Arduino intermediario o ros2_control hardware interface (ref github NitheshS2030 BTS7960+ROS2)",
+"no_encontrado": "consumo exacto 40-80kg, carritos super motorizados, chasis golf usados MXN",
+"fecha": "2026-10-02"}
+}
